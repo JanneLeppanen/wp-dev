@@ -1,0 +1,29 @@
+{
+    "name": "janneleppanen/wp-dev",
+    "authors": [
+        {
+            "name": "Janne Leppänen",
+            "email": "janne@janneleppanen.com"
+        }
+    ],
+    "repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org",
+			"minimum-stability": "dev"
+		}
+	],
+    "require": {
+    	"johnpbloch/wordpress": "4.1.1",
+    	"wpackagist-plugin/wp-html-compression": "*",
+    	"wpackagist-plugin/wordpress-seo": "*",
+    },
+    "extra": {
+    	"installer-paths": {
+			"content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+			"content/plugins/{$name}/": ["type:wordpress-plugin"],
+			"content/themes/{$name}/": ["type:wordpress-theme"]
+	    },
+    	"wordpress-install-dir": "wp"
+  	}
+}
