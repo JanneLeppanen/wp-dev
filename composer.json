@@ -16,7 +16,7 @@
     "require": {
     	"johnpbloch/wordpress": "4.1.1",
     	"wpackagist-plugin/wp-html-compression": "*",
-    	"wpackagist-plugin/wordpress-seo": "*",
+    	"wpackagist-plugin/wordpress-seo": "*"
     },
     "extra": {
     	"installer-paths": {
