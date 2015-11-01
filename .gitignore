@@ -1,2 +1,6 @@
 vendor/*
 wp/*
+content/plugins/*
+content/themes/*
+composer.lock
+wp-config.php
